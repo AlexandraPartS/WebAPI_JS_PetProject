@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>To-do CRUD</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <h1>Students List</h1>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>LastName</th>
+            <th>FirstMidName</th>
+            <th>EnrollmentDate</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody id="studentsList"></tbody>
+    </table>
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+</body>
+</html>

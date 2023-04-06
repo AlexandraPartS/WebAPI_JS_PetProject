@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <h1>Student Information</h1>
+
+    <table>
+        <tr>
+            <th>LastName</th>
+            <th>FirstMidName</th>
+            <th>EnrollmentDate</th>
+        </tr>
+        <tbody id="studentInfo"></tbody>
+    </table>
+    <div>&nbsp;</div>
+    <table>
+        <tr>
+            <th>Course Title</th>
+            <th>Grade</th>
+        </tr>
+        <tbody id="enrollmentsList"></tbody>
+    </table>
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItemInfo();
+    </script>
+</body>
+</html>
